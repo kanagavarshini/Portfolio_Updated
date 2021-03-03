@@ -47,16 +47,17 @@ a{
 }
 /*  Hero image and content */ 
 .hero-bkg-animated {
-background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
-width: 100%;
-margin-left: 0;
-margin-bottom: 75px;
-margin-right: 0;
-margin-top: 0;
-text-align: center;
-/* height: 600px; */
-box-sizing: border-box;
-animation: slide 20s linear infinite;
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 80%;
+  padding-top: 5%;
+  margin: 0 auto;
+  /* margin-bottom: 75px; */
+  
+  font-size: 32px;
+  text-align: center;
+  /* height: 600px; */
+  box-sizing: border-box;
+  animation: slide 20s linear infinite;
 }
 
 /* .hero-bkg-animated h1 {
@@ -67,12 +68,12 @@ font-family: "Lora", Times, serif;
 from { background-position: 0 0; }
 to { background-position: -400px 0; }
 }
-.heroContent{
+/* .heroContent{
   font-size: 32px;
   padding-top: 5%;
   max-width:80%;
 
-}
+} */
 .headerTxt{
 
 font-size: 25px;
