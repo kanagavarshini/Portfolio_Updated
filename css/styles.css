@@ -26,7 +26,7 @@ a{
   }
 
 .navbar-brand img{
-  width: 75px;
+  width: 80px;
 }
 
 .navbar-nav {
@@ -93,10 +93,10 @@ text-align: center;
 }
 .heroText{
   font-family: "Lora", Times, serif;
-  font-size: 52px;
+  font-size: 48px;
   color:black !important;
-  padding: 0px 0px 0px 40px;
-  margin: -40px 0px 0px 0px;
+  text-align: justify;
+  margin-left: 30px;
   }
 .heroDesc{
   font-family: "Lora", Times, serif;
@@ -238,7 +238,6 @@ section {
 /* Work section */
 .toolsUsed h3{
   margin-bottom: 30px;
-  text-align: center;
 }
 .toolsUsed{
   margin-bottom: 30px;
@@ -289,7 +288,14 @@ section {
     }
     .prototype{
     
-    margin-left: 45px;
+    margin-left: 10px;
+    }
+    .sectionHeading{
+      text-align: left;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
     }
 /* footer */
 
