@@ -1,34 +1,43 @@
 h1, h2, h3 , h4, h5, h6 {
-  font-family:  "Lora", Times, serif;
+  /* font-family:  "Lora", Times, serif; */
+  font-family: 'Times New Roman', Times, serif ;
 }
 html, body {
-  font-family:  "Lora", Times, serif;
+  /* font-family:  "Lora", Times, serif; */
+  font-family: 'Times New Roman', Times, serif ;
   scroll-behavior: smooth;
+  background-color: white;
 }
 P{
   font-size: 24px;
+  color: black;
 }
 a{
   color: white;
 }
-.container h1,h2,h3,h4,h5{
-  color: #e05454;
-  font-size: 32px;
+.container h1,h2{
+  color: #0062cc;
+  border:none;
   font-weight: bold;
+  text-align: center;
+  
 }
 /* Header nav content */
 .custom {
  
   width: 100%;
-  background-color:#e05454 !important;
+  background-color:black !important;
   background-size: cover;
   z-index: 10;
   }
 
-.navbar-brand img{
-  width: 80px;
+/* .navbar-brand img{
+  width: 75px;
+  background-color: #e05454 ;
+} */
+.navbar-brand{
+  font-family: Brush Script MT;
 }
-
 .navbar-nav {
   padding:0%;
   margin: 0 auto; 
@@ -45,280 +54,96 @@ a{
 .nav-item:hover {
   text-decoration: underline;
 }
-/*  Hero image and content */ 
-.hero-bkg-animated {
-  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
-  width: 80%;
-  padding-top: 5%;
-  padding-bottom: 10%;
-  margin: 0 auto;
-  /* margin-bottom: 75px; */
-  
-  font-size: 32px;
-  text-align: center;
-  /* height: 600px; */
-  box-sizing: border-box;
-  animation: slide 20s linear infinite;
-  }
-  .heroImg{
-    margin:5%;
-  }
-/* .hero-bkg-animated h1 {
-font-family: "Lora", Times, serif;
-} */
 
-@keyframes slide {
-from { background-position: 0 0; }
-to { background-position: -400px 0; }
+
+.heroImg{
+  margin:5%;
 }
-/* .heroContent{
-  font-size: 32px;
-  padding-top: 5%;
-  max-width:80%;
+.heroIcon{
+  background-color: transparent!important;
+  border: none;
+}
+.intro{
+  color: black;
+}
+ .heroContent{
+  
+  margin: 70px 0px 0px 0px;
+  text-align: center;
+ } 
+ .subTitle{
+   font-weight: bold;
+ }
+.text-center{
+ 
+  font-size: 30px;
+  text-align: center;
 
-} */
+  
+  background-color: transparent!important;
+}
 .headerTxt{
-
-font-size: 25px;
+color:black !important;
+font-size: 24px;
 text-align: center;
 }
-.jumbotron{
-  background-image: url("../images/Group\ 2.png");
-  background-size:cover;
-  background-repeat: no-repeat;
-  height:600px;
-  margin: 80px 0px 0px 0px;
+
+.card{
   
-  border-radius: .8rem;
+  
+  margin:40px;
+  
 }
-.heroText{
-  font-family: "Lora", Times, serif;
-  font-size: 48px;
-  color:black !important;
-  text-align: justify;
-  margin-left: 30px;
+
+.card-block{
+  align-content: center;
+  
+  position: relative;
+  text-align:center;
   }
-.heroDesc{
-  font-family: "Lora", Times, serif;
-  font-size: 28px;
-  color: black;
-  padding: 0px 0px 0px 40px;
-  }
-/* Work Section */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-#team .card {
- 
-  background: #ffffff !important;
-
-}
-#team p{
-  font-size: 24px;
-}
-#team .btn-primary:hover,
-.btn-primary:focus {
-    background-color: #e05454;
-    border-color: #e05454;
-    box-shadow: none;
-    outline: none;
-}
-
-#team .btn-primary {
-    color: #fff;
-    background-color: #e05454;
-    border-color: #e05454;
-}
-
-section {
-    padding: 60px 0;
-}
-
-.section-title {
-    text-align: center;
-    color: rgb(224, 84, 84);
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-size: 32px;
-}
-
-
-
-.image-flip:hover .backside,
-.image-flip.hover .backside {
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    border-radius: .25rem;
-}
-
-.image-flip:hover .frontside,
-.image-flip.hover .frontside {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.mainflip {
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -moz-transition: 1s;
-    transform: perspective(1000px);
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-.frontside {
-    position: relative;
-    transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    z-index: 2;
-    margin-bottom: 30px;
-}
-
-.backside {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: white;
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-}
-
-.frontside,
-.backside {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transition: 1s;
-    -moz-transform-style: preserve-3d;
-    -o-transition: 1s;
-    -o-transform-style: preserve-3d;
-    -ms-transition: 1s;
-    -ms-transform-style: preserve-3d;
-    transition: 1s;
-    transform-style: preserve-3d;
-}
-
-.frontside .card,
-.backside .card {
-    min-height: 360px;
-}
-
-.backside .card a {
-    font-size: 18px !important;
-    color: white !important;
-}
-
-.frontside .card .card-title,
-.backside .card .card-title {
-    color: #007b5e !important;
-}
-
-.frontside .card .card-body img {
-    width: 180px;
-    height: 120px;
-    /* border-radius: 50%; */
-}
-/* Work section */
-.toolsUsed h3{
-  margin-bottom: 30px;
-}
-.toolsUsed{
-  margin-bottom: 30px;
-}
-.toolsUsed ul{
+.card-block .btn{
   
-  display: inline;
-  float: left;
-  font-size: 20px;
-  
-  text-align: left;
+  justify-content: center;
 }
-.toolsUsed p{
-  
-  text-align: center;
+
+.card-title{
+color: black;
+top: 0px;
+text-align: center;
+font-weight: bold;
 }
-/* My skills Cards */
 
- .cardContainer p{
-   font-weight: normal;
-   font-size: 20px;
- }
- .skills h3{
-   font-size: 16px;
- }
-  .cardContainer {
+
+.row{
+width: 100%;
+height:100%;
+padding: 50px;
+}
+ .work1{
+  background-color:coral; 
   
-  text-align: center;
-  align-items: center;
-  /* margin-left: 40px;
-  margin-right: 30px; */
-  border: none;
-  width: 100%;
-  }
-  .cardContainer img{
-  display: block;
-  width:60%;
-  margin: auto;
- 
-  }
-  .whiskers{
-
-    background-image: url("../images/whiskersproto.png");
-    background-size:500px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-position: right;
-    }
-    .prototype{
-    
-    margin-left: 10px;
-    }
-    .sectionHeading{
-      text-align: left;
-      margin-left: 0px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-
-    }
-/* footer */
-
-footer {
-
-  background-color:  rgb(224, 84, 84);
+} 
+.work{
   
-  margin-top: 50px;
+  background-color:plum;
   
-  color: white;
+}
+.work2{
+  background-color: cornflowerblue;
   
-  }
-  .sectionHeading2{
-  text-align: center;
-  margin-top: 0;
-  padding-bottom: 30px;
-  color: white;
-  }
-  footer ul{
-  display:flex;
-  flex-direction:row;
-  justify-content: space-evenly;
-  list-style: none;
+}
+.work3{
+  background-color:powderblue;
   
   
-  }
+}
+.work4{
+  background-color:salmon;
+  
+}
+
+
+
+
+
+
