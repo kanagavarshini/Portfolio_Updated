@@ -117,7 +117,7 @@ font-weight: bold;
   text-align: left;
   padding:30px;
 }
-.subTitle{
+.subTitle1{
   padding: 40px;
 }
 .row{
@@ -156,7 +156,7 @@ ul{
   
 }
 
-h3{
+.subHeader1{
   color:#0062cc;
   padding:20px;
 }
